@@ -1,0 +1,1405 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:id="@+id/scrollviewhira"
+        android:layout_width="336dp"
+        android:layout_height="620dp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Hiragana"
+                    android:textColor="@color/red"
+                    android:textSize="35dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira1"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/a"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/a" />
+
+                <ImageButton
+                    android:id="@+id/hira2"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/i"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/i" />
+
+                <ImageButton
+                    android:id="@+id/hira3"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/u"
+                    android:contentDescription="@string/u"/>
+
+                <ImageButton
+                    android:id="@+id/hira4"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e"
+                    android:contentDescription="@string/e"/>
+
+                <ImageButton
+                    android:id="@+id/hira5"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/o"
+                    android:contentDescription="@string/o"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira6"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ka"
+                    android:contentDescription="@string/ka"/>
+
+                <ImageButton
+                    android:id="@+id/hira7"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/ki"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ki"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <ImageButton
+                    android:id="@+id/hira8"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ku"
+                    android:contentDescription="@string/ku"/>
+
+                <ImageButton
+                    android:id="@+id/hira9"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/ke"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ke"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <ImageButton
+                    android:id="@+id/hira10"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ko"
+                    android:contentDescription="@string/ko"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira11"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sa"
+                    android:contentDescription="@string/sa"/>
+
+                <ImageButton
+                    android:id="@+id/hira12"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/shi"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/shi"
+                    tools:ignore="DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck,DuplicateClickableBoundsCheck" />
+
+                <ImageButton
+                    android:id="@+id/hira13"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/su"
+                    android:contentDescription="@string/su"/>
+
+                <ImageButton
+                    android:id="@+id/hira14"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/se"
+                    android:contentDescription="@string/se"/>
+
+                <ImageButton
+                    android:id="@+id/hira15"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/so"
+                    android:contentDescription="@string/so"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira16"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ta"
+                    android:contentDescription="@string/ta"/>
+
+                <ImageButton
+                    android:id="@+id/hira17"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/chi"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/chi"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <ImageButton
+                    android:id="@+id/hira18"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tsu"
+                    android:contentDescription="@string/tsu"/>
+
+                <ImageButton
+                    android:id="@+id/hira19"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/te"
+                    android:contentDescription="@string/te"/>
+
+                <ImageButton
+                    android:id="@+id/hira20"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/to"
+                    android:contentDescription="@string/to"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira21"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/na"
+                    android:contentDescription="@string/na"/>
+
+                <ImageButton
+                    android:id="@+id/hira22"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ni"
+                    android:contentDescription="@string/ni"/>
+
+                <ImageButton
+                    android:id="@+id/hira23"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/nu"
+                    android:contentDescription="@string/nu"/>
+
+                <ImageButton
+                    android:id="@+id/hira24"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ne"
+                    android:contentDescription="@string/ne"/>
+
+                <ImageButton
+                    android:id="@+id/hira25"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/no"
+                    android:contentDescription="@string/no"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira26"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/ha"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ha"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <ImageButton
+                    android:id="@+id/hira27"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hi"
+                    android:contentDescription="@string/hi"/>
+
+                <ImageButton
+                    android:id="@+id/hira28"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fu"
+                    android:contentDescription="@string/fu"/>
+
+                <ImageButton
+                    android:id="@+id/hira29"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/he"
+                    android:contentDescription="@string/he"/>
+
+                <ImageButton
+                    android:id="@+id/hira30"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ho"
+                    android:contentDescription="@string/ho"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira31"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ma"
+                    android:contentDescription="@string/ma"/>
+
+                <ImageButton
+                    android:id="@+id/hira32"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/mi"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mi"
+                    tools:ignore="DuplicateClickableBoundsCheck" />
+
+                <ImageButton
+                    android:id="@+id/hira33"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mu"
+                    android:contentDescription="@string/mu"/>
+
+                <ImageButton
+                    android:id="@+id/hira34"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/me"
+                    android:contentDescription="@string/me"/>
+
+                <ImageButton
+                    android:id="@+id/hira35"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mo"
+                    android:contentDescription="@string/mo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira36"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ya"
+                    android:contentDescription="@string/ya"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/hira37"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/yu"
+                    android:contentDescription="@string/yu"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/hira38"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/yo"
+                    android:contentDescription="@string/yo"/>
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira39"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ra"
+                    android:contentDescription="@string/ra"/>
+
+                <ImageButton
+                    android:id="@+id/hira40"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ri"
+                    android:contentDescription="@string/ri"/>
+
+                <ImageButton
+                    android:id="@+id/hira41"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ru"
+                    android:contentDescription="@string/ru"/>
+
+                <ImageButton
+                    android:id="@+id/hira42"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/re"
+                    android:contentDescription="@string/re"/>
+
+                <ImageButton
+                    android:id="@+id/hira43"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ro"
+                    android:contentDescription="@string/ro"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira44"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wa"
+                    android:contentDescription="@string/wa"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/hira45"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wo"
+                    android:contentDescription="@string/wo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/hira46"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/n"
+                    android:contentDescription="@string/n"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+    <ScrollView
+        android:id="@+id/scrollviewkata"
+        android:layout_width="336dp"
+        android:layout_height="620dp"
+        android:alpha="0"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.495"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="159dp"
+                    android:layout_height="45dp"
+                    android:layout_marginLeft="100dp"
+                    android:layout_marginTop="5dp"
+                    android:fontFamily="sans-serif-medium"
+                    android:text="Katakana"
+                    android:textColor="@color/red"
+                    android:textSize="35dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata1"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/a"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/a1" />
+
+                <ImageButton
+                    android:id="@+id/kata2"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:contentDescription="@string/i"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/i1" />
+
+                <ImageButton
+                    android:id="@+id/kata3"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/u1"
+                    android:contentDescription="@string/u"/>
+
+                <ImageButton
+                    android:id="@+id/kata4"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/e1"
+                    android:contentDescription="@string/e"/>
+
+                <ImageButton
+                    android:id="@+id/kata5"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/o1"
+                    android:contentDescription="@string/o"/>
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata6"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ka1"
+                    android:contentDescription="@string/ka"/>
+
+                <ImageButton
+                    android:id="@+id/kata7"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ki1"
+                    android:contentDescription="@string/ki"/>
+
+                <ImageButton
+                    android:id="@+id/kata8"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ku1"
+                    android:contentDescription="@string/ku"/>
+
+                <ImageButton
+                    android:id="@+id/kata9"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ke1"
+                    android:contentDescription="@string/ke"/>
+
+                <ImageButton
+                    android:id="@+id/kata10"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ko1"
+                    android:contentDescription="@string/ko"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata11"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/sa1"
+                    android:contentDescription="@string/sa"/>
+
+                <ImageButton
+                    android:id="@+id/kata12"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/shi1"
+                    android:contentDescription="@string/shi"/>
+
+                <ImageButton
+                    android:id="@+id/kata13"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/su1"
+                    android:contentDescription="@string/su"/>
+
+                <ImageButton
+                    android:id="@+id/kata14"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/se1"
+                    android:contentDescription="@string/se"/>
+
+                <ImageButton
+                    android:id="@+id/kata15"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/so1"
+                    android:contentDescription="@string/so"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata16"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ta1"
+                    android:contentDescription="@string/ta"/>
+
+                <ImageButton
+                    android:id="@+id/kata17"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/chi1"
+                    android:contentDescription="@string/chi"/>
+
+                <ImageButton
+                    android:id="@+id/kata18"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tsu1"
+                    android:contentDescription="@string/tsu"/>
+
+                <ImageButton
+                    android:id="@+id/kata19"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/te1"
+                    android:contentDescription="@string/te"/>
+
+                <ImageButton
+                    android:id="@+id/kata20"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/to1"
+                    android:contentDescription="@string/to"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata21"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/na1"
+                    android:contentDescription="@string/na"/>
+
+                <ImageButton
+                    android:id="@+id/kata22"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ni1"
+                    android:contentDescription="@string/ni"/>
+
+                <ImageButton
+                    android:id="@+id/kata23"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/nu1"
+                    android:contentDescription="@string/nu"/>
+
+                <ImageButton
+                    android:id="@+id/kata24"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ne1"
+                    android:contentDescription="@string/ne"/>
+
+                <ImageButton
+                    android:id="@+id/kata25"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/no1"
+                    android:contentDescription="@string/no"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata26"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ha1"
+                    android:contentDescription="@string/ha"/>
+
+                <ImageButton
+                    android:id="@+id/kata27"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/hi1"
+                    android:contentDescription="@string/hi"/>
+
+                <ImageButton
+                    android:id="@+id/kata28"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fu1"
+                    android:contentDescription="@string/fu"/>
+
+                <ImageButton
+                    android:id="@+id/kata29"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/he1"
+                    android:contentDescription="@string/he"/>
+
+                <ImageButton
+                    android:id="@+id/kata30"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ho1"
+                    android:contentDescription="@string/ho"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata31"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ma1"
+                    android:contentDescription="@string/ma"/>
+
+                <ImageButton
+                    android:id="@+id/kata32"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mi1"
+                    android:contentDescription="@string/mi"/>
+
+                <ImageButton
+                    android:id="@+id/kata33"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mu1"
+                    android:contentDescription="@string/mu"/>
+
+                <ImageButton
+                    android:id="@+id/kata34"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/me1"
+                    android:contentDescription="@string/me"/>
+
+                <ImageButton
+                    android:id="@+id/kata35"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mo1"
+                    android:contentDescription="@string/mo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata36"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ya1"
+                    android:contentDescription="@string/ya"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/kata37"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/yu1"
+                    android:contentDescription="@string/yu"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/kata38"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/yo1"
+                    android:contentDescription="@string/yo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata39"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ra1"
+                    android:contentDescription="@string/ra"/>
+
+                <ImageButton
+                    android:id="@+id/kata40"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ri1"
+                    android:contentDescription="@string/ri"/>
+
+                <ImageButton
+                    android:id="@+id/kata41"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ru1"
+                    android:contentDescription="@string/ru"/>
+
+                <ImageButton
+                    android:id="@+id/kata42"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/re1"
+                    android:contentDescription="@string/re"/>
+
+                <ImageButton
+                    android:id="@+id/kata43"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ro1"
+                    android:contentDescription="@string/ro"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata44"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wa1"
+                    android:contentDescription="@string/wa"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:id="@+id/kata45"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/wo1"
+                    android:contentDescription="@string/wo"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:background="@color/darkgrey"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/kata46"
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/n1"
+                    android:contentDescription="@string/n"/>
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+
+                <ImageButton
+                    android:layout_width="60dp"
+                    android:layout_height="74dp"
+                    android:layout_marginLeft="6dp"
+                    android:layout_marginTop="3dp"
+                    android:background="@color/grey"
+                    android:scaleType="fitCenter" />
+            </LinearLayout>
+        </LinearLayout>
+
+    </ScrollView>
+
+    <Button
+        android:id="@+id/buttonhira"
+        android:layout_width="120dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_marginRight="10dp"
+        android:text="@string/Hiragana"
+        android:textSize="15dp"
+        android:backgroundTint="@color/purple_700"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/buttonkata"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/buttonkata"
+        android:layout_width="125dp"
+        android:layout_height="40dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="10dp"
+        android:text="@string/Katakana"
+        android:backgroundTint="@color/white"
+        android:textColor="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
